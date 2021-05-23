@@ -1,48 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <title>Туннелеры</title>
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-</head>
-<body>
-    <!-- передвижения, крутые функции -->
-    <div id="additional_function">
-        <span id="currentTime"></span>
-        <script>
-            setInterval(function() {
-                let currentTime = new Date().toLocaleTimeString('ru-RU', { timeZone: 'Europe/Moscow' });
-                document.getElementById('currentTime').innerHTML = currentTime;
-            });
-        </script>
-    </div>
-    
-    <div id="tunnelers">
-        
-        
-        <!-- шапка -->
-        <div id="header">
-            <center>
-                <img id="http://images.vfl.ru/ii/1602860096/c2e5a6d3/31960915.png" src="http://images.vfl.ru/ii/1602860096/c2e5a6d3/31960915.png">
-                <h1>Туннелеры</h1>
-                <br>
-                <div id="url_war">
-                    <a class="u_war" href="https://catwar.su/cw3">Игровая</a> |
-                    <a class="u_war" href="https://catwar.su">Мой кот/кошка</a> |
-                    <a class="u_war" href="https://catwar.su/blog14264">Блог Туннелеров</a>
-                    <br>
-                    <a class="u_war" href="plan_1.png">План 1</a> |
-                    <a class="u_war" href="plan_drob_1.png">План дроби 1</a> |
-                    <a class="u_war" href="plan_2.png">План 2</a> |
-                    <a class="u_war" href="plan_drob_2.png">План дроби 2</a>
-                </div>
-            </center>
-            
-            <!-- сбор -->
-            <div id="gather">
-                <br>
-                <hr>
-                <h2>СБОР</h2>
+
+                <br
                 <hr>
                 <br>
                 <!-- заметка дня -->
