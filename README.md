@@ -23,7 +23,7 @@
         <!-- шапка -->
         <div id="header">
             <center>
-                <img id="http://images.vfl.ru/ii/1602860096/c2e5a6d3/31960915.png" src="header.png">
+                <img id="http://images.vfl.ru/ii/1602860096/c2e5a6d3/31960915.png" src="http://images.vfl.ru/ii/1602860096/c2e5a6d3/31960915.png">
                 <h1>Туннелеры</h1>
                 <br>
                 <div id="url_war">
@@ -213,21 +213,24 @@
   }
 }
         //быстрый набор
-        $("#razd").click(function(){$("#gather_text").val($("#gather_text").val() + "? Итоги и раздача в n минут")});
-        $("#smena").click(function(){$("#gather_text").val($("#gather_text").val() + "?СМЕНА КАРТЫ?")});
+        $("#razd").click(function(){$("#gather_text").val($("#gather_text").val() + "❗ Итоги и раздача в n минут")});
+        $("#smena").click(function(){$("#gather_text").val($("#gather_text").val() + "❗СМЕНА КАРТЫ❗")});
         $("#it_day_g").click(function(){$("#gather_text").val($("#gather_text").val() + `Итоги дня
  участок: +;
  участок: +.
 Общее количество паутины за день: n.
+Ответственный за паутину: Крадущий Паутину, Чёрный Пёс, Паутина Лжи, Искорёженный Провидец.
 Разбирайте участки: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16.
 `)});
         $("#it_day_y").click(function(){$("#gather_text").val($("#gather_text").val() + `Итоги дня
  участок: +;
  участок: +.
 Общее количество паутины за день: n.
+Ответственный за паутину: Крадущий Паутину, Чёрный Пёс, Паутина Лжи, Искорёженный Провидец.
 Разбирайте участки: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18.
 `)});
-        $("#mog_popr").click(function(){$("#gather_text").val($("#gather_text").val() + "@all можете попросить: ")});
+        $("#mog_popr").click(function(){$("#gather_text").val($("#gather_text").val() + "@all го на сбор!
+можете попросить: ")});
         $("#g_uch").click(function(){$("#gather_text").val($("#gather_text").val() + `1 и 2 - 
 3 и 4 - 
 5 и 6 - 
@@ -236,6 +239,7 @@
 11 и 12 - 
 13 и 14 - 
 15 и 16 - 
+Ответственный за паутину: Крадущий Паутину, Чёрный Пёс, Паутина Лжи, Искорёженный Провидец.
 `)});
         $("#y_uch").click(function(){$("#gather_text").val($("#gather_text").val() + `1 и 2 - 
 3 и 4 - 
@@ -246,6 +250,7 @@
 13 и 14 - 
 15 и 16 - 
 17 и 18 - 
+Ответственный за паутину: Крадущий Паутину, Чёрный Пёс, Паутина Лжи, Искорёженный Провидец.
 `)});
         //участники
         $("#id_558232").click(function(){$("#gather_text").val($("#gather_text").val() + "@id549802204 (Огнедышащий);")});
@@ -254,7 +259,6 @@
         $("#id_1101992").click(function(){$("#gather_text").val($("#gather_text").val() + "@id449476656 (Крадущий Паутину);")});
         $("#id_748150").click(function(){$("#gather_text").val($("#gather_text").val() + "@id326501785 (Цветущий Сумрак);")});
         $("#id_1090620").click(function(){$("#gather_text").val($("#gather_text").val() + "@id399927847 (Зловещее Рычание);")});
-        $("#id_1137273").click(function(){$("#gather_text").val($("#gather_text").val() + "@id592322635 (Клёкот Журавля);")});
         $("#id_1142909").click(function(){$("#gather_text").val($("#gather_text").val() + "@id316649308 (Маковка);")});
         $("#id_207429").click(function(){$("#gather_text").val($("#gather_text").val() + "@id368410948 (Ветродуй);")});
         $("#id_867605").click(function(){$("#gather_text").val($("#gather_text").val() + "@id542473072 (Вороногласый);")});
@@ -273,8 +277,6 @@
         $("#id_1036303").click(function(){$("#gather_text").val($("#gather_text").val() + "@id516307929 (Помутнение Рассудка);")});
         $("#id_1150092").click(function(){$("#gather_text").val($("#gather_text").val() + "@id491364582 (Куцость);")});
         $("#id_1191564").click(function(){$("#gather_text").val($("#gather_text").val() + "@id424273784 (Тайностная);")});
-        $("#id_551891").click(function(){$("#gather_text").val($("#gather_text").val() + "@id351670420 (Крапушка);")});
-        $("#id_83356").click(function(){$("#gather_text").val($("#gather_text").val() + "@id297301691 (Порхание Бабочки);")});
         $("#id_659021").click(function(){$("#gather_text").val($("#gather_text").val() + "@id475865549 (Искорёженный Провидец);")});
         $("#id_1217073").click(function(){$("#gather_text").val($("#gather_text").val() + "@id460463845 (Пятнистый);")});
         $("#id_1276970").click(function(){$("#gather_text").val($("#gather_text").val() + "@id321305223 (Непослушная Кудряшка);")});
