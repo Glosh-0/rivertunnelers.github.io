@@ -23,7 +23,7 @@
         <!-- шапка -->
         <div id="header">
             <center>
-                <img id="header_img" src="header.png">
+                <img id="http://images.vfl.ru/ii/1602860096/c2e5a6d3/31960915.png" src="header.png">
                 <h1>Туннелеры</h1>
                 <br>
                 <div id="url_war">
